@@ -1,0 +1,29 @@
+:root{
+  --yellow: #ffc760;
+  --background-color: #1e1e1e;
+  --black: #000000;
+  --text-grey: #a2a2a2;
+  --white: #fff;
+  --background-heading: #2C2C2C;
+}
+.btn-primary{
+  background-color: var(--yellow);
+color: var(--black);
+font-weight: bold;
+border: none;
+}
+.btn-primary:focus{
+    background-color: var(--yellow);
+color: var(--black);
+font-weight: bold;
+border: none;
+}
+
+.App {
+  background: var(--background-color);
+  margin: 0;
+  width: 100%;
+}
+
+
+

@@ -1,0 +1,27 @@
+.about-heading-dark{
+  font-size: 5rem;
+  color: var(--background-heading);
+  text-transform: uppercase;
+  padding-top: 70px;
+  line-height: 0;
+  font-weight: bolder;
+}
+
+.about-heading-light{
+  padding: 20px 0;
+  color: var(--white);
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 3rem;
+}
+.backround-png{
+   background-image:
+  url("../images/PngItem_2620699.png");
+  background-size: contain;
+  height: 100vh;
+  background-repeat:no-repeat;
+}
+
+.about-text{
+  color: var(--text-grey);
+}
