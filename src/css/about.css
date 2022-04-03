@@ -1,4 +1,4 @@
-.about-heading-dark{
+.about-heading-dark {
   font-size: 5rem;
   color: var(--background-heading);
   text-transform: uppercase;
@@ -7,25 +7,24 @@
   font-weight: bolder;
 }
 
-.about-heading-light{
+.about-heading-light {
   padding: 20px 0;
   color: var(--white);
-   text-transform: uppercase;
-   text-align: center;
-   font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
 }
-.backround-png{
-   background-image:
-  url("../images/PngItem_2620699.png");
+.backround-png {
+  background-image: url("../images/PngItem_2620699.png");
   background-size: contain;
   height: 50vh;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
 }
 
-.about-text{
+.about-text {
   color: var(--text-grey);
 }
 
-.about-cta{
+.about-cta {
   margin-bottom: 10vh;
 }

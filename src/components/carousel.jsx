@@ -15,7 +15,10 @@ const Carouselitems = () => {
           />
           <Carousel.Caption className="d-none d-md-block">
             <h3>The Store</h3>
-            <p>Wordpress app where we tried to take product pictures ourselfs and focus on textures and colours</p>
+            <p>
+              Wordpress app where we tried to take product pictures ourselfs and
+              focus on textures and colours
+            </p>
           </Carousel.Caption>
         </a>
       </Carousel.Item>
@@ -44,9 +47,7 @@ const Carouselitems = () => {
 
           <Carousel.Caption className="d-none d-md-block">
             <h3>Science Museum</h3>
-            <p>
-              the first site i designed and coded in HTML & CSS
-            </p>
+            <p>the first site i designed and coded in HTML & CSS</p>
           </Carousel.Caption>
         </a>
       </Carousel.Item>

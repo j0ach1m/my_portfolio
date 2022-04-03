@@ -7,7 +7,6 @@ import "../css/skill.css";
 import { FaHtml5, FaLaptopCode } from "react-icons/fa";
 import { SiAdobexd, SiJavascript } from "react-icons/si";
 
-
 const Skills = () => {
   return (
     <div className="black-background">

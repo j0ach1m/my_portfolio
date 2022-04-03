@@ -38,11 +38,16 @@ export const ContactUs = () => {
           console.log(error.text);
         }
       );
-      e.target.reset()
+    e.target.reset();
   };
 
   return (
-    <form className="contact-form" id="contact_form" ref={form} onSubmit={sendEmail}>
+    <form
+      className="contact-form"
+      id="contact_form"
+      ref={form}
+      onSubmit={sendEmail}
+    >
       <FloatingLabel
         controlId="floatingInput"
         label="Full Name"
@@ -84,7 +89,12 @@ export const ContactUs = () => {
         <input className="intro-cta " type="submit" value="send"></input>
       </div> */}
       <Col className="d-grid mt-4 mb-4 col-4 m-auto">
-        <Button className="intro-cta" type="submit" value="send" variant="primary">
+        <Button
+          className="intro-cta"
+          type="submit"
+          value="send"
+          variant="primary"
+        >
           Contact
         </Button>{" "}
       </Col>

@@ -1,34 +1,33 @@
-.card{
+.card {
   background: var(--background-color);
   color: var(--text-grey);
-
 }
-.card-text h4{
+.card-text h4 {
   font-size: 1.8rem;
 }
- .intro-title{
-    color: var(--yellow);
-    font-size: 2.2rem;
-    padding-bottom: 15px;
-  }
-
-.card-img{
-max-width: 200px;
-height: 200px;
+.intro-title {
+  color: var(--yellow);
+  font-size: 2.2rem;
+  padding-bottom: 15px;
 }
-.rounded-circle{
-    object-fit: cover;
+
+.card-img {
+  max-width: 200px;
+  height: 200px;
+}
+.rounded-circle {
+  object-fit: cover;
   object-position: 50% 200%;
 }
-.card-subtitle{
+.card-subtitle {
   font-size: 1.2rem;
 }
-.card-body p{
+.card-body p {
   color: var(--yellow);
   padding: 30px 0;
 }
 
-.intro-cta:hover{
+.intro-cta:hover {
   background-color: var(--yellow);
   color: var(--text-grey);
   border: none;

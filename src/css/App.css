@@ -1,41 +1,40 @@
-:root{
+:root {
   --yellow: #ffc760;
   --background-color: #1e1e1e;
   --black: #000000;
   --text-grey: #a2a2a2;
   --white: #fff;
-  --background-heading: #2C2C2C;
-  --yellow-transparent: #ffc760a4
+  --background-heading: #2c2c2c;
+  --yellow-transparent: #ffc760a4;
 }
-.btn-primary{
+.btn-primary {
   background-color: var(--yellow);
-color: var(--black);
-font-weight: bold;
-border: none;
+  color: var(--black);
+  font-weight: bold;
+  border: none;
 }
-.btn-primary:focus{
-    background-color: var(--yellow);
-color: var(--black);
-font-weight: bold;
-border: none;
+.btn-primary:focus {
+  background-color: var(--yellow);
+  color: var(--black);
+  font-weight: bold;
+  border: none;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: var(--yellow);
   color: var(--text-grey);
   border: none;
 }
 
-.btn-secondary{
+.btn-secondary {
   background-color: var(--black);
   color: var(--yellow);
   font-weight: bold;
   border: none;
 }
-.btn-secondary:focus{
+.btn-secondary:focus {
   background-color: #1e1e1e;
   color: var(--yellow);
-
 }
 
 .App {
@@ -43,6 +42,3 @@ border: none;
   margin: 0;
   width: 100%;
 }
-
-
-

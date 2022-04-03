@@ -5,7 +5,6 @@ import { Container, Card, Row, Col } from "react-bootstrap";
 import "../css/intro.css";
 import Button from "react-bootstrap/Button";
 
-
 const Intro = () => {
   return (
     <Container>

@@ -1,20 +1,19 @@
-.contact{
+.contact {
   color: var(--yellow);
 }
 
-.form-control{
+.form-control {
   background-color: var(--black);
   border: 1px solid var(--black);
-
 }
 
-.form-control:focus{
+.form-control:focus {
   background-color: var(--black);
   color: var(--yellow);
   border-color: var(--black);
   box-shadow: none;
 }
-.input-group-text{
+.input-group-text {
   background-color: var(--black);
   color: var(--yellow);
 }
@@ -34,25 +33,22 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 
-.contact-text p{
+.contact-text p {
   color: var(--text-grey);
   padding-top: 2rem;
 }
 
-.contact-find_me{
-  color: var(--white);
+.contact-find_me {
+  color: var(--white) !important;
   font-size: 1.2rem;
 }
 
-.contact-icon{
+.contact-icon {
   font-size: 2rem;
-
+  color: var(--yellow);
 }
 
-.icon-container{
+.icon-container {
   padding-bottom: 2rem;
 }
 
-/* .contact-text{
-  margin-left: ;
-} */
