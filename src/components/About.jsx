@@ -45,10 +45,12 @@ const About = () => {
               temporarily laid off, I saw a chance to make this change.
             </p>
           </div>
-          <Col className="d-grid gap-4 col-4 mx-auto">
-            <Button className="intro-cta" variant="primary">
-              Download CV
-            </Button>{" "}
+          <Col className="d-grid gap-4 col-5 col-sm-6 mx-auto">
+            <a href="../files/cv_2020 pdf.pdf" download>
+              <Button className="about-cta" type="button" variant="primary">
+                Download CV
+              </Button>
+            </a>
           </Col>
         </Col>
       </Row>

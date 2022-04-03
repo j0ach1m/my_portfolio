@@ -1,0 +1,24 @@
+.carousel-container{
+  width: 90% !important;
+  margin: 0 auto;
+  padding: 20px 0 40px 0;
+}
+
+.carousel-dark .carousel-caption{
+  background: var(--yellow-transparent) ;
+
+}
+
+.carousel-caption{
+  right: 25%;
+  left: 25%;
+  bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+
+
+.carousel-dark .carousel-indicators [data-bs-target]{
+  background-color: var(--yellow);
+}

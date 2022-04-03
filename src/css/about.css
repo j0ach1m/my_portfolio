@@ -18,10 +18,14 @@
    background-image:
   url("../images/PngItem_2620699.png");
   background-size: contain;
-  height: 100vh;
+  height: 50vh;
   background-repeat:no-repeat;
 }
 
 .about-text{
   color: var(--text-grey);
+}
+
+.about-cta{
+  margin-bottom: 10vh;
 }

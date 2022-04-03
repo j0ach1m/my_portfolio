@@ -1,12 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/App.css";
 import React from "react";
-import { Container, CardGroup, Card, Row, Col } from "react-bootstrap";
+import { Container, Card, Row, Col } from "react-bootstrap";
 import "../css/intro.css";
 import Button from "react-bootstrap/Button";
 
-
-import Image from "react-bootstrap/Image";
 
 const Intro = () => {
   return (
@@ -16,7 +14,9 @@ const Intro = () => {
           <Col xs={8}>
             <Card.Body className="ps-5 ">
               <Card.Text as="h4">Hi, I'm</Card.Text>
-              <Card.Title as="h1">Joachim Ring</Card.Title>
+              <Card.Title className="intro-title" as="h1">
+                Joachim Ring
+              </Card.Title>
               <Card.Subtitle className="mb-2">
                 Front-End Developer
               </Card.Subtitle>
@@ -32,9 +32,11 @@ const Intro = () => {
             />
           </Col>
           <Col className="d-grid gap-4 col-4 ms-5">
-            <Button className="intro-cta" variant="primary">
-              Contact Me
-            </Button>{" "}
+            <a href="#contact_form">
+              <Button className="intro-cta" type="button" variant="primary">
+                Contact
+              </Button>{" "}
+            </a>
           </Col>
         </Row>
       </Card>

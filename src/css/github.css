@@ -1,0 +1,14 @@
+.yellow-background{
+    background: var(--yellow);
+  border-radius:0 100px 0 100px;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+
+.git-cta{
+  border-radius: 20px;
+  padding: 10px;
+}

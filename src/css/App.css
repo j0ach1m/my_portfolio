@@ -5,6 +5,7 @@
   --text-grey: #a2a2a2;
   --white: #fff;
   --background-heading: #2C2C2C;
+  --yellow-transparent: #ffc760a4
 }
 .btn-primary{
   background-color: var(--yellow);
@@ -17,6 +18,24 @@ border: none;
 color: var(--black);
 font-weight: bold;
 border: none;
+}
+
+.btn-primary:hover{
+  background-color: var(--yellow);
+  color: var(--text-grey);
+  border: none;
+}
+
+.btn-secondary{
+  background-color: var(--black);
+  color: var(--yellow);
+  font-weight: bold;
+  border: none;
+}
+.btn-secondary:focus{
+  background-color: #1e1e1e;
+  color: var(--yellow);
+
 }
 
 .App {

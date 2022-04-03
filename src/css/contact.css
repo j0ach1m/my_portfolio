@@ -1,0 +1,58 @@
+.contact{
+  color: var(--yellow);
+}
+
+.form-control{
+  background-color: var(--black);
+  border: 1px solid var(--black);
+
+}
+
+.form-control:focus{
+  background-color: var(--black);
+  color: var(--yellow);
+  border-color: var(--black);
+  box-shadow: none;
+}
+.input-group-text{
+  background-color: var(--black);
+  color: var(--yellow);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid var(--yellow-transparent);
+  font-size: 1rem;
+  -webkit-text-fill-color: var(--yellow);
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.contact-text p{
+  color: var(--text-grey);
+  padding-top: 2rem;
+}
+
+.contact-find_me{
+  color: var(--white);
+  font-size: 1.2rem;
+}
+
+.contact-icon{
+  font-size: 2rem;
+
+}
+
+.icon-container{
+  padding-bottom: 2rem;
+}
+
+/* .contact-text{
+  margin-left: ;
+} */
