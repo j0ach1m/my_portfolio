@@ -1,4 +1,4 @@
-import { Container, Button, Carousel, Col } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/carousel.css";
 import React from "react";

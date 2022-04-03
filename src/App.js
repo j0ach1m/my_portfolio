@@ -10,7 +10,7 @@ import Carousel from "./components/carousel";
 import Github from "./components/github";
 import Contact from "./components/Contact";
 import Footer from "./components/footer";
-import { ContactUs } from "./components/ContactUs";
+
 
 
 
@@ -25,7 +25,7 @@ function App() {
       <Carousel />
       <Github />
       <Contact />
-    
+
       <Footer />
     </div>
   );

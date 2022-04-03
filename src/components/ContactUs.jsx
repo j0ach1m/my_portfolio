@@ -1,15 +1,11 @@
 import React from "react";
-import Feedback from "react-bootstrap/Feedback";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 // import { init } from "@emailjs/browser";
 // init("SB0aELKAQfBpzQGU0");
 import {
-  Container,
-  Row,
   Button,
   Col,
-  Form,
   FloatingLabel,
 } from "react-bootstrap";
 

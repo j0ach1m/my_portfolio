@@ -4,10 +4,7 @@ import React from "react";
 import {
   Container,
   Row,
-  Button,
-  Col,
-  Form,
-  FloatingLabel,
+  Col
 } from "react-bootstrap";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { ContactUs } from "./ContactUs";
@@ -34,10 +31,10 @@ const Contact = () => {
             <p className="contact-find_me text-center pt-sm-5">Find me on:</p>
           </Col>
           <Col className="text-center icon-container ">
-            <a href="">
+            <a href="https://github.com/j0ach1m?tab=repositories">
               <FaGithub className="contact-icon col-2" />
             </a>
-            <a href="">
+            <a href="www.linkedin.com/in/joachim-ring">
               <FaLinkedin className="contact-icon col-2" />
             </a>
           </Col>
