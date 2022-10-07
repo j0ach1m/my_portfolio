@@ -9,9 +9,9 @@ const Intro = () => {
   return (
     <Container>
       <Card className="pt-5">
-        <Row>
-          <Col xs={8}>
-            <Card.Body className="ps-5 ">
+        <Row className="w-100 m-auto">
+          <Col  className="mx-auto">
+            <Card.Body className="mx-auto">
               <Card.Text as="h4">Hi, I'm</Card.Text>
               <Card.Title className="intro-title" as="h1">
                 Joachim Ring
@@ -30,13 +30,7 @@ const Intro = () => {
               className="rounded-circle"
             />
           </Col>
-          <Col className="d-grid gap-4 col-4 ms-5">
-            <a href="#contact_form">
-              <Button className="intro-cta" type="button" variant="primary">
-                Contact
-              </Button>{" "}
-            </a>
-          </Col>
+ 
         </Row>
       </Card>
     </Container>

@@ -81,9 +81,7 @@ export const ContactUs = () => {
           name="message"
         />
       </FloatingLabel>
-      {/* <div className="d-grid mt-4 mb-4 col-4 m-auto">
-        <input className="intro-cta " type="submit" value="send"></input>
-      </div> */}
+   
       <Col className="d-grid mt-4 mb-4 col-4 m-auto">
         <Button
           className="intro-cta"
