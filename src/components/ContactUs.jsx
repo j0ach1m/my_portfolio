@@ -54,7 +54,7 @@ export const ContactUs = () => {
           type="text"
           placeholder="Name"
           name="name"
-          req="true"
+          required
         />
       </FloatingLabel>
 
@@ -68,7 +68,7 @@ export const ContactUs = () => {
           type="email"
           placeholder="name@example.com"
           name="user_email"
-          req="true"
+      required
         />
       </FloatingLabel>
 
@@ -79,9 +79,11 @@ export const ContactUs = () => {
           placeholder="Leave a comment here"
           style={{ height: "100px" }}
           name="message"
+          required
+          minLength={10}
         />
       </FloatingLabel>
-   
+
       <Col className="d-grid mt-4 mb-4 col-4 m-auto">
         <Button
           className="intro-cta"

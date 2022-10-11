@@ -1,0 +1,6 @@
+.cardImg{
+  height: 200% !important;
+
+  object-fit: cover;
+  object-position: center;
+}

@@ -3,7 +3,7 @@ import "../css/App.css";
 import React from "react";
 import { Container, Card, Row, Col } from "react-bootstrap";
 import "../css/intro.css";
-import Button from "react-bootstrap/Button";
+
 
 const Intro = () => {
   return (
@@ -26,11 +26,12 @@ const Intro = () => {
           </Col>
           <Col xs={4}>
             <Card.Img
+            id="card-img"
               src={require("../images/package-lock-kopi.jpg")}
               className="rounded-circle"
             />
           </Col>
- 
+
         </Row>
       </Card>
     </Container>

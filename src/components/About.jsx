@@ -46,11 +46,12 @@ const About = () => {
             </p>
           </div>
           <Col className="d-grid gap-4 col-5 col-sm-6 mx-auto">
-            <a href="../files/cv_2020 pdf.pdf" download>
+            <a href={require("../files/cv_2020.pdf")} download="Joachim_Ring-Resume.pdf">
               <Button className="about-cta" type="button" variant="primary">
                 Download CV
               </Button>
             </a>
+
           </Col>
         </Col>
       </Row>
