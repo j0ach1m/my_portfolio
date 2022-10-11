@@ -10,7 +10,7 @@ const Github = () => {
       <h2 className="git-heading fs-1">Check out my Github</h2>
       <Col className="d-grid mt-5 col-3 mx-auto">
         <Button
-          href="https://github.com/j0ach1m?tab=repositories"
+          href="https://github.com/j0ach1m"
           className="git-cta"
           type="button"
           variant="secondary"
