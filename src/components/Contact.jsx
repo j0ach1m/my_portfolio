@@ -34,7 +34,7 @@ const Contact = () => {
             <a href="https://github.com/j0ach1m">
               <FaGithub className="contact-icon col-2" />
             </a>
-            <a href="www.linkedin.com/in/joachim-ring">
+            <a href="https://www.linkedin.com/in/joachim-ring/">
               <FaLinkedin className="contact-icon col-2" />
             </a>
           </Col>
