@@ -31,7 +31,7 @@ const Contact = () => {
             <p className="contact-find_me text-center pt-sm-5">Find me on:</p>
           </Col>
           <Col className="text-center icon-container ">
-            <a href="https://github.com/j0ach1m?tab=repositories">
+            <a href="https://github.com/j0ach1m">
               <FaGithub className="contact-icon col-2" />
             </a>
             <a href="www.linkedin.com/in/joachim-ring">
