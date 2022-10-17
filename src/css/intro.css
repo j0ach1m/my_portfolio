@@ -18,6 +18,7 @@
 .rounded-circle {
   object-fit: cover;
   object-position: 50% 200%;
+
 }
 .card-subtitle {
   font-size: 1.2rem;
