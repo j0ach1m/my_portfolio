@@ -4,13 +4,12 @@ import React from "react";
 import { Container, Card, Row, Col } from "react-bootstrap";
 import "../css/intro.css";
 
-
 const Intro = () => {
   return (
     <Container>
       <Card className="pt-5">
         <Row className="w-100 m-auto">
-          <Col  className="mx-auto">
+          <Col className="mx-auto">
             <Card.Body className="mx-auto">
               <Card.Text as="h4">Hi, I'm</Card.Text>
               <Card.Title className="intro-title" as="h1">
@@ -26,12 +25,11 @@ const Intro = () => {
           </Col>
           <Col xs={4}>
             <Card.Img
-            id="card-img"
-              src={require("../images/profilbilde_portfolio.jpeg")}
+              id="card-img"
+              src={require("../images/profilbilde_portfolio.png")}
               className="rounded-circle"
             />
           </Col>
-
         </Row>
       </Card>
     </Container>
