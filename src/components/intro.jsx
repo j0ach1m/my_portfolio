@@ -27,7 +27,7 @@ const Intro = () => {
           <Col xs={4}>
             <Card.Img
             id="card-img"
-              src={require("../images/package-lock-kopi.jpg")}
+              src={require("../images/profilbilde_portfolio.jpeg")}
               className="rounded-circle"
             />
           </Col>
